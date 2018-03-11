@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+ol, ul {
+	list-style: none;
+}
+
+header {
+	background: #ffffff;
+	height: 68px;
+	width: 960px	
+	top:0;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 1px 1px 1px lightgray;
+}
+
+header nav{
+	float:right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+header .hightlight, header .current a{
+	color:#4aaaa5;
+	font-weight: bold;	
+}
+
+header a:hover{
+	color:#cccccc;
+}
+
+header a{
+	color:#777777;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;	
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding: 0 10px 0 10px;
+	margin-top: -10px;
+	border-right-style: solid;
+    border-right-width: .1px;
+    color: #777777;
+}
+
+ul li:last-child: {
+	display: none;
+}
+
+
+#name {
+	background-color: #4aaaa5;
+	float: left;
+	color: #ffffff;
+	font-size: 12px;
+}
+
+span.visionz {
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 70px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+span.about {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+hr {
+	margin-bottom: 20px;
+}
+
+img.wrap {
+	float: left;
+	width: 200px;
+	height: auto;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+body {
+    color: #777777;
+	line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+	background-image:url(../images/ricepaper2/ricepaper2.png);
+	
+}
+
+#box {
+	background-color: #ffffff;
+	width: 1010px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about_me_section {
+	background-color: #ffffff;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	box-shadow: 1px 1px 1px lightgray;
+}
+
+
+
+h {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+	color: #4aaaa5;
+}
+
+container {
+   border-color: #dddddd;
+}
+
+footer {
+    background-color: #666666;
+	height: 50px;
+	width: 100%;
+    border-top: 5px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+	text-align: center;
+	margin-top: 40px;
+	color: #ffffff;
+	position: fixed;
+	 bottom: 0;
+}
+
+span.footer_text {
+	margin-top: 20px;
+	font-size: 12px;
+	
+}
