@@ -47,10 +47,9 @@ header li{
     color: #777777;
 }
 
-ul li:last-child: {
-	display: none;
+li:last-child {
+    border-right: none;
 }
-
 
 #name {
 	background-color: #4aaaa5;
@@ -104,6 +103,7 @@ body {
 	padding-top: 5px;
 	padding-bottom: 20px;
 	box-shadow: 1px 1px 1px lightgray;
+	clear: both;
 
 }
 
@@ -179,27 +179,34 @@ container {
 }
 
 .social {
-    width: 400px;
-    height: auto;
-    clear: both;
-    float: right;
-    position: absolute;
-    top: 486px;
-    right: 331px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: -10px;
+	
 }
 
 .social_pic {
     width: 100%;
-    /* float: right; */
-    /* clear: both; */
     height: auto;
-    position: absolute;
-    top: 195px;
-    right: -946px;
+	position: relative;
+	left: -7.5px;
 }
-user agent stylesheet
-div {
-    display: block;
+
+aside {
+	display: block;
+	position: relative;
+	width: 42%;
+	float: right;
+	height: 50%;
+	top: -416px;
+}
+
+aside p {
+ 	right: -140px;
+	display: block;
+	position: relative;
+	
 }
 
 footer {

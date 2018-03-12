@@ -51,10 +51,9 @@ a::after {
 	display: none;
 }
 
-ul li:last-child: {
-	display: none;
+li:last-child {
+    border-right: none;
 }
-
 
 #name {
 	background-color: #4aaaa5;
